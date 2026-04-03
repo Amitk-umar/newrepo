@@ -1,0 +1,39 @@
+
+
+.navbar-brand {
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+      
+body {
+  font-family: 'Poppins', sans-serif;
+
+}
+
+/* HERO */
+.hero-section {
+  height: 100vh;
+   /* Syntax: linear-gradient(overlay color, overlay color), url("image-path") */
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://img.freepik.com/free-photo/red-deer-nature-habitat-deer-rut-european-wildlife_475641-941.jpg?semt=ais_incoming&w=740&q=80');
+  background-size: cover;
+  background-position: center;
+}
+
+/* GLASS EFFECT */
+.glass-card {
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+}
+
+/* SERVICES */
+.service-box {
+  padding: 25px;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #dfe9f3, #ffffff);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
